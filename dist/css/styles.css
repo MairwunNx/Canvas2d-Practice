@@ -1,0 +1,75 @@
+.start-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: -8px;
+    background-color: rgb(142, 197, 252);
+    background-image: linear-gradient(62deg, rgb(142, 197, 252) 0%, rgb(224, 195, 252) 100%);
+}
+
+.start-button {
+    position: absolute;
+    top: calc(50% - 75px);
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    border: transparent;
+    transition: background-color 200ms ease-out;
+    color: rgb(65, 64, 66);
+    font-size: 72px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    outline: none;
+}
+
+.start-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.start-button:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.game-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: -8px;
+    background-color: rgb(241, 246, 251);
+}
+
+.game-canvas {
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    padding: 0;
+    margin: 0;
+    top: 15%;
+    -webkit-box-shadow: 0 0 10px 1px rgba(168, 168, 168, 0.2);
+    -moz-box-shadow: 0 0 10px 1px rgba(168, 168, 168, 0.2);
+    box-shadow: 0 0 10px 1px rgba(168, 168, 168, 0.2);
+}
+
+.stop-button {
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+    border: transparent;
+    transition: background-color 200ms ease-out;
+    color: rgb(65, 64, 66);
+    font-size: 8vh;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    outline: none;
+}
+
+.stop-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.stop-button:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+}
